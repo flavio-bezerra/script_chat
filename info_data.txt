@@ -1,0 +1,67 @@
+{
+    "vendas_marketplace_amazon": {
+        "id": "Índice incremental da transação",
+        "order_id": "Identificador único do pedido na Amazon",
+        "date": "Data da venda",
+        "status": "Status atual do pedido (Ex: Shipped, Cancelled)",
+        "fulfilment": "Método de atendimento (Merchant ou Amazon)",
+        "sales_channel": "Canal de venda (Ex: Amazon.in)",
+        "ship_service_level": "Nível de serviço de envio (Standard ou Expedited)",
+        "style": "Código do estilo do produto",
+        "sku": "Stock Keeping Unit - Identificador de estoque",
+        "category": "Categoria do produto",
+        "size": "Tamanho da peça",
+        "asin": "Amazon Standard Identification Number",
+        "courier_status": "Status de envio pela transportadora",
+        "qty": "Quantidade de itens no pedido",
+        "currency": "Moeda da transação (INR)",
+        "amount": "Valor total da venda",
+        "ship_city": "Cidade de destino do envio",
+        "ship_state": "Estado de destino do envio",
+        "ship_postal_code": "Código postal de destino",
+        "ship_country": "País de destino",
+        "promotion_ids": "Identificadores de promoções aplicadas",
+        "is_b2b": "Booleano indicando se a venda foi para empresa (Business-to-Business)",
+        "fulfilled_by": "Entidade responsável pela entrega",
+        "is_fulfilled": "Indicador se o pedido foi totalmente atendido"
+    },
+    "vendas_e_exportacoes_internacionais": {
+        "id": "Índice incremental da transação",
+        "date": "Data da venda internacional",
+        "month": "Mês de referência da venda",
+        "customer_name": "Nome do cliente internacional",
+        "style": "Estilo do produto",
+        "sku": "Identificador de estoque",
+        "size": "Tamanho do produto",
+        "qty_pieces": "Quantidade de peças vendidas",
+        "unit_rate": "Preço unitário por peça",
+        "gross_amount": "Valor bruto total da transação"
+    },
+    "performance_financeira_e_custos_maio_2022": {
+        "id": "Índice incremental do registro",
+        "sku": "Identificador de estoque",
+        "style_id": "Identificador do estilo",
+        "catalog": "Nome do catálogo",
+        "category": "Categoria do item",
+        "weight": "Peso do produto",
+        "tp_price": "Preço de custo/terceiros em maio de 2022",
+        "mrp_old": "Preço de varejo original sugerido",
+        "final_mrp_old": "Preço de varejo final após descontos",
+        "amazon_mrp": "Preço listado na Amazon",
+        "amazon_fba_mrp": "Preço listado no Amazon FBA",
+        "flipkart_mrp": "Preço listado no Flipkart"
+    },
+    "controle_de_despesas_e_fluxo_de_caixa": {
+        "id": "Índice incremental do lançamento",
+        "received_date": "Data do recebimento",
+        "received_amount": "Valor recebido em caixa",
+        "expense_description": "Descrição da despesa realizada",
+        "expense_amount": "Valor da despesa"
+    },
+    "comparativo_de_custos_de_operadores_logisticos": {
+        "id": "Índice incremental",
+        "service_type": "Tipo de serviço logístico (Inbound, Outbound, Armazenagem)",
+        "shiprocket_rate": "Taxa cobrada pelo operador Shiprocket",
+        "increff_rate": "Taxa cobrada pelo operador INCREFF"
+    }
+}

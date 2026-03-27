@@ -1,0 +1,17 @@
+{
+    'modelos': {
+        'estrategista': 'databricks-claude-sonnet-4-6',
+        'analista': 'databricks-claude-haiku-4-5',
+        'guardrails': 'databricks-meta-llama-3-1-8b-instruct',
+    },
+    'parametros': {
+        'estrategista': {'temperature': 0.25, 'max_tokens': 8000, 'timeout': 120},
+        'analista': {'temperature': 0.1, 'max_tokens': 4000, 'timeout': 60},
+        'guardrails': {'temperature': 0.0, 'max_tokens': 500, 'timeout': 30},
+    },
+    'crew': {
+        'max_iter': 3,
+        'max_rpm': 10,
+        'max_retries': 2,
+    }
+}

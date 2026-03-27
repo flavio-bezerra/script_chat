@@ -1,0 +1,8 @@
+crewai==1.12.2
+streamlit==1.52.1
+langchain==0.3.23
+langchain-community==0.3.20
+langchain-core==1.2.22
+SQLAlchemy==2.0.39
+pydantic==2.11.10
+litellm==1.82.6

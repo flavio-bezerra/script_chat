@@ -31,6 +31,10 @@ No lugar de usarmos apenas um "ChatGPT" que tenta adivinhar tudo sozinho, constr
 
 Todo esse processo de coordenação garante que a resposta não seja apenas um "palpite", mas um relatório consolidado baseado em fatos do seu banco de dados.
 
+<p align="center">
+  <img src="mermaid-diagram.png" alt="Diagrama dos Agentes" width="400">
+</p>
+
 ---
 
 ## 🗄️ Dados Disponíveis para a Equipe

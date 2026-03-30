@@ -66,8 +66,8 @@ pip install -r requirements.txt
 
 ### Passo 2: Gerar a Base de Dados
 
-Antes da Inteligência Artificial funcionar, ela precisa de dados! É necessário gerar o seu banco `sqlite` local pela primeira vez.
-Para isso, basta abrir o arquivo chamado `01.ingestao_dos_dados.ipynb` (usando o VS Code ou o Jupyter) e rodar as células de código dele ("Run All"). Ele se encarregará de baixar as planilhas da nuvem, limpar tudo, criar a pasta `data` (se ela não existir) e gerar o arquivo de banco de dados perfeito para a IA consumir.
+Antes da Inteligência Artificial funcionar, ela precisa de dados! É necessário rodar o arquivo `01.ingestao_dos_dados.ipynb` para disponibilizar os dados pela primeira vez, pois eles não estão subindo com o git no repositório.
+Para isso, basta abrir o arquivo usando o VS Code ou o Jupyter e rodar as células de código dele ("Run All"). Ele se encarregará de baixar as planilhas da nuvem, limpar tudo, criar a pasta `data` (se ela não existir) e gerar o arquivo `sqlite` local de banco de dados adequado para a IA consumir.
 
 ### Passo 3: Validar Chaves de Segurança
 
